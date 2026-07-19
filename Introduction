@@ -1,0 +1,44 @@
+Python : python is a high-level , interpreted , general-purpose programing language that emaphasize code
+        readability with the use of simple and clean syntax
+        It support multiple programming paradiams , including object oriented, procedural and functional programming
+Note- general purpose- A language that can be used not for one specific task , but for a variety of task 
+like- s/w developement , web dev, ai & ml , data science and data analysis , automation / scripting , game etc 
+
+Features:
+- Simple and easy to learn 
+- Interpreted Language 
+- Portable
+- open source 
+- Extensive Libraries
+
+
+
+MODULE :
+A module is a file containing code written by somebody else whicn can be imported and used in our programes.
+
+ther are two types
+-Built in Modules- pre-install in python
+some examples of built in module are os , abc array etc
+
+-External Modules- need to install using pip
+some example of external modules are transorflow , flask etc
+
+
+
+PIP: 
+Pip is the package manager for python you can use pip to install a module or your  system 
+like - pip install flask module
+
+signle line comment- #
+Multiple line comments ; Writen using ''' '''
+
+QUESTION - install an external modul and use it to perform an operation of your interest
+ANS- 
+terminal - pip install playsound
+programe - form playsound inport playsound
+          playsound('D:\\myData\\Bussiness\\ ...play.mp3')'
+
+
+
+
+        
