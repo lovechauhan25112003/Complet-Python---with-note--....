@@ -1,0 +1,20 @@
+'''Variable- variable is like a  container that store the value '''
+#eg- 
+# a=30   ---> integer
+# b="love"   ---> string
+# c=10.11    ----> float
+# d= True  ---->boolean 
+
+# a=5
+# b=10         
+# a,b=b,a    -----> python multiple assignment allow 
+# print(a,b)
+
+
+''' Data Type --- Strig, Interger, Float , Boolean, None'''
+
+'''Operator:
+Arithematic---->+,-,*,/,% etc
+Assignment----->=,+=,-=,*=,/= etc
+Comparision---->==, <,>,>=,<=,!= etc
+Logical--------> and , or , not'''
