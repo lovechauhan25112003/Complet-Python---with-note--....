@@ -108,3 +108,43 @@ etc'''
 -20 Compress a string (aabbcc-a3b2c2)
 -21 Find all duplicate words in a sentence 
 '''
+
+
+
+
+'''Q -1 Reverse a string without using reverse().'''
+
+# str = "hello love"
+# rev_str = ""
+# for i in str :
+#     rev_str = i+rev_str
+# print(rev_str)
+'''note- its for biginer but its not better and its complexity - O(n'2)'''
+
+# str = "hello love"
+# rev = ""
+# for i in range(len(str)-1,-1,-1):
+#     rev+=str[i]
+# print(rev)
+'''its a better way and its complexity O(n)'''
+
+'''Q-2(a) Reverse each word in a sentence.'''
+
+# str = "hello love how are you"
+# words = str.split()
+# result = ""
+# for word in words:
+#     rev = ""
+#     for i in range(len(word)-1, -1, -1):
+#         rev+=word[i]
+#     result+=rev+" "
+# print(result)
+
+
+'''Q-2(b) Reverse the order of words without using reverse().'''
+# str = "hello love, how are you"
+# words = str.split()
+# rev_str = ""
+# for i in words:
+#     rev_str = i+" "+rev_str
+# print(rev_str)
