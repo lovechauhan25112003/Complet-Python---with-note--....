@@ -148,3 +148,51 @@ etc'''
 # for i in words:
 #     rev_str = i+" "+rev_str
 # print(rev_str)
+
+
+
+'''Q-3 Check whether a string is palindrome.'''
+
+# def is_Palindrom(s):
+#     revStr = ""
+#     for i in range(len(s)-1,-1,-1):
+#         revStr+=s[i]
+#     if s==revStr:
+#         return True
+#     else:
+#         return False
+    
+# text = input("Enter any string:")
+# # print(is_Palindrom(text)) '''if u want to only true false for palindrom '''  or 
+
+# if is_Palindrom(text):
+#     print("Palindrom")
+# else:
+#     print("Not palindrom")
+
+'''Q-4 Find the longes palindrom in a string.'''
+
+
+'''Q-5 Count vowels'''
+
+# def count_vowel(s):
+#     count = 0
+#     for ch in s.lower():
+#         if ch in "aeiou":
+#             count+=1
+#     return count
+# str = input("Enter a string:")
+# print("Number of count:",count_vowel(str))
+
+
+'''Q-6 Count consonants.'''
+
+# def count_consonants(s):
+#     count = 0
+#     for ch in s.lower():
+#         if ch.isalpha() and ch not in "aeiou ":
+#             count+=1
+#     return count
+# str = input("Enter a string:")
+# print("Number of count", count_consonants(str))
+
