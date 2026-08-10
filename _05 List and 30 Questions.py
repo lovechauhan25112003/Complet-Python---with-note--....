@@ -134,3 +134,89 @@ print(list2)
 # print(smallest)
 
 
+
+
+'''Q-5 Find the second largest element in a list '''
+
+# list = [30,25,7,42,15]
+# largest = second_largest =  float('-inf') # or list[]
+
+# for i in list:
+#     if i>largest:
+#         second_largest = largest
+#         largest = i
+#     elif i>second_largest and i!=largest:
+#         second_largest = i
+    
+# print(second_largest)
+# print(largest)
+
+'''Q-6 Find the second smallest element in a list '''
+# li = [30,25,7,42,15]
+# smallest = sec_smallest = float('inf')
+
+# for i in li:
+#     if i<smallest:
+#         sec_smallest = smallest
+#         smallest=i
+#     elif i<sec_smallest and smallest!=i:
+#         sec_smallest=i
+# if sec_smallest == float('inf'):
+#     print("There is no second smallest element.")
+# else:
+#     print("Second smallest element is:", sec_smallest)
+
+
+'''Q-7 Reverse a list '''
+# li = [30,25,7,42,15]
+# li.reverse()
+# print(li)
+
+# Alternative way to reverse a list without using reverse()
+# li = [30,25,7,42,15]
+# reversed_li = li[::-1]
+# print(reversed_li)
+
+
+'''Q-8 Removes duplicate'''
+# li = [30,25,7,42,15,7,30,25,42,30,25]
+# unique_li = []
+
+# for i in li:
+#     if i not in unique_li:
+#         unique_li.append(i)
+
+# print(unique_li)
+
+
+'''Q-9 Count frequency of each element'''
+# li = [30,25,7,42,15,7,30,25,42,30,25]
+# freq = {}
+# for i in li:
+#     if i in freq:
+#         freq[i]+=1
+#     else:
+#         freq[i]=1
+# print(freq)
+
+
+
+'''Q-10 Find duplicate element'''
+
+# li = [30,25,7,42,15,7,30,25,42,30,25]
+# freq = {}
+# for i in li:
+#     if i in freq:
+#         freq[i]+=1
+#     else:
+#         freq[i]=1
+# print(freq)
+# duplicate = []
+# for key,value in freq.items():
+#     if value>1:
+#         duplicate.append(key)
+# print(duplicate)
+
+'''Q-11 Check whether an element exists.'''
+
+
