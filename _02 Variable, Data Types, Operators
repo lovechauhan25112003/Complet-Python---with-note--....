@@ -11,10 +11,22 @@
 # print(a,b)
 
 
-''' Data Type --- Strig, Interger, Float , Boolean, None'''
+''' Data Type --- 
+Python has 8 built- in data type
+Numeric - int float , complex
+String - str
+Sequence - list , tuple, set
+mapping - dic
+set -set, frozenset 
+Boolean - bool
+Binary- bytes, bytearray, memoryview 
+None- None
 
 '''Operator:
-Arithematic---->+,-,*,/,% etc
-Assignment----->=,+=,-=,*=,/= etc
+Arithematic---->+,-,*,/,%,//,** etc
+Assignment----->=,+=,-=,*=,/=,//=,**= etc
 Comparision---->==, <,>,>=,<=,!= etc
-Logical--------> and , or , not'''
+Logical--------> and , or , not
+Bitwise - &, |, ^, ~, <<,>> 
+Membership - in, not in 
+Identity - is , is not '''
